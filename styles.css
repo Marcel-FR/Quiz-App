@@ -18,6 +18,7 @@ height: 100%;
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    background-color:
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -27,6 +28,8 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Title */
 
 .header {
+    /* background: rgb(19,205,201);
+background: linear-gradient(0deg, rgba(19,205,201,1) 0%, rgba(238,112,182,1) 40%); */
     background-color: hotpink;
     color: white;
     height: 80px;
@@ -52,7 +55,7 @@ h1 {
     margin: 4vh;
     min-height: 60vw;
     min-width: auto;
-
+    background-color: 
 }
 
 .material-symbols-outlined {
@@ -89,6 +92,7 @@ h1 {
     padding: 3vw 7vw;
     font-size: 4vw;
     background: none;
+    background-color: 
 }
 
 .answer-button:hover {
@@ -119,3 +123,27 @@ ul {
 }
 
 /* Navbar */
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    padding: 5vw;
+    bottom: 0;
+    border-top: 2px solid black;
+    /* background: rgb(19,205,201);
+    background: linear-gradient(261deg, rgba(19,205,201,1) 0%, rgba(238,112,182,1) 70%); */
+    background-color: hotpink;
+}
+
+footer .material-symbols-outlined {
+    position: relative;
+    transform: scale(2);
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 150,
+        'GRAD' 0,
+        'opsz' 48
+}

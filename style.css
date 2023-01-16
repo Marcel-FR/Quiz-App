@@ -34,6 +34,12 @@ p, h1, h2, h3, h4, h5, h6 {
     isolation: isolate;
 }
 
+* {
+    font-family: "Bubblegum Sans";
+}
+
+/* Header */
+
 .header {
     background: hotpink;
     color: white;
@@ -45,22 +51,20 @@ p, h1, h2, h3, h4, h5, h6 {
     z-index: 1;
 }
 
-* {
-    font-family: "Bubblegum Sans";
-}
-
 h1 {
     text-align: center;
     font-size: 40px;
 }
 
+/* Question-Card */
+
 .card {
-    margin: 20px 10%;
-    border: 5px solid #252629;
-    padding: 3% 10%;
-    scroll-margin-top: 100px;
-    border-radius: 2rem;
     position: relative;
+    border: 2px solid black;
+    margin: 4vh;
+    min-height: 60vw;
+    min-width: 321.66px;
+    border-radius: 1rem;
 }
 
 .question-1 {
@@ -74,13 +78,66 @@ h1 {
     'wght' 200,
     'GRAD' 0,
     'opsz' 48;
-    bottom: 95%;
+    transform: scale(2);
+    bottom: 94%;
     left: 80%;
 }
+
+/* .material-symbols-outlined:hover {
+    font-variation-settings: 
+    'FILL' 1,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 48;
+    cursor: pointer;
+} */
 
 .answer-button {
     border: 1px solid black;
     background: none;
     padding: 3vw 7vw;
     font-size: 4vw;
+
 }
+
+.answer-button:hover {
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    padding: 0;
+    bottom: 2vw;
+    left: 3vw;
+}
+
+.html {
+    font-size: 3vw;
+    padding: 1.5vw;
+    margin: 1vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.flexbox {
+    font-size: 3vw;
+    padding: 1.5vw;
+    margin: 1vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.css {
+    font-size: 3vw;
+    padding: 1.5vw;
+    margin: 1vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+/* Navbar */
